@@ -1,0 +1,34 @@
+[0.766s] Invoking command in '/home/leeky16498/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/leeky16498/ros2_ws/install/my_robot_interfaces:/home/leeky16498/ros2_ws/install/my_robot_bringup:/home/leeky16498/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leeky16498/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leeky16498/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.035s] running develop
+[1.190s] running egg_info
+[1.190s] creating my_py_pkg.egg-info
+[1.205s] writing my_py_pkg.egg-info/PKG-INFO
+[1.205s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.206s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.206s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.206s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.206s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.237s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.239s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.256s] running build_ext
+[1.256s] Creating /home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.256s] Installing add_two_ints_client script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.256s] Installing add_two_ints_client_no_oop script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.257s] Installing add_two_ints_server script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.257s] Installing battery script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.257s] Installing hw_status_publisher script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] Installing led_panel script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] Installing my_first_node script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] Installing number_counter script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] Installing number_publisher script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] Installing robot_news_station script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] Installing smartphone script to /home/leeky16498/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] 
+[1.258s] Installed /home/leeky16498/ros2_ws/build/my_py_pkg
+[1.258s] running symlink_data
+[1.258s] creating /home/leeky16498/ros2_ws/install/my_py_pkg/share/ament_index
+[1.258s] creating /home/leeky16498/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.258s] creating /home/leeky16498/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.259s] symbolically linking /home/leeky16498/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/leeky16498/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.259s] symbolically linking /home/leeky16498/ros2_ws/build/my_py_pkg/package.xml -> /home/leeky16498/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.287s] Invoked command in '/home/leeky16498/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/leeky16498/ros2_ws/install/my_robot_interfaces:/home/leeky16498/ros2_ws/install/my_robot_bringup:/home/leeky16498/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leeky16498/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leeky16498/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

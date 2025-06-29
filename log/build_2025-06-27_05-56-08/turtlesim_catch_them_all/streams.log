@@ -1,0 +1,20 @@
+[0.566s] Invoking command in '/home/leeky16498/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/leeky16498/ros2_ws/install/my_robot_interfaces:/home/leeky16498/ros2_ws/install/my_robot_bringup:/home/leeky16498/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leeky16498/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/build/turtlesim_catch_them_all:/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/build/my_py_pkg:/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leeky16498/ros2_ws/build/turtlesim_catch_them_all/build --no-deps symlink_data --force
+[0.746s] running develop
+[0.837s] running egg_info
+[0.846s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.847s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.847s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.847s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[0.847s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[0.865s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.865s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.875s] running build_ext
+[0.875s] Creating /home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[0.875s] Installing controller script to /home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.876s] Installing spawner script to /home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.876s] 
+[0.876s] Installed /home/leeky16498/ros2_ws/build/turtlesim_catch_them_all
+[0.876s] running symlink_data
+[0.876s] symbolically linking /home/leeky16498/ros2_ws/build/turtlesim_catch_them_all/resource/turtlesim_catch_them_all -> /home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[0.877s] symbolically linking /home/leeky16498/ros2_ws/build/turtlesim_catch_them_all/package.xml -> /home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[0.896s] Invoked command in '/home/leeky16498/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/leeky16498/ros2_ws/install/my_robot_interfaces:/home/leeky16498/ros2_ws/install/my_robot_bringup:/home/leeky16498/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leeky16498/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/build/turtlesim_catch_them_all:/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/leeky16498/ros2_ws/build/my_py_pkg:/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leeky16498/ros2_ws/build/turtlesim_catch_them_all/build --no-deps symlink_data --force

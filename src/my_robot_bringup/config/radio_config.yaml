@@ -1,0 +1,11 @@
+/robot_news_station_giskard:
+  ros__parameters:
+    robot_name: "Giskrard_param"
+
+/robot_news_station_daniel:
+  ros__parameters:
+    robot_name: "Giskrard_daneil"
+
+/robot_news_station_shut:
+  ros__parameters:
+    robot_name: "Giskrard_shut"

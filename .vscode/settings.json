@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "ros.distro": "jazzy",
+    "python.analysis.extraPaths": [
+        "/home/leeky16498/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/leeky16498/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/leeky16498/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

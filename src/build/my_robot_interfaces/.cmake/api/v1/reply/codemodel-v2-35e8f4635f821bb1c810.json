@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-17723c2f18d7481dc3c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "my_robot_interfaces__py",
+					"jsonFile" : "directory-my_robot_interfaces__py-e3dd66e61d412694730c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/leeky16498/ros2_ws/src/build/my_robot_interfaces/my_robot_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_robot_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_robot_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_robot_interfaces_egg-d767fd6431223f99278c.json",
+					"name" : "ament_cmake_python_build_my_robot_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_robot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_robot_interfaces-3573dd40942bc5d4352c.json",
+					"name" : "ament_cmake_python_copy_my_robot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces-77db5d44e589941fd69a.json",
+					"name" : "my_robot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__cpp-04340baf7e764969b56e.json",
+					"name" : "my_robot_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_robot_interfaces__py::@19f98676674de119cc56",
+					"jsonFile" : "target-my_robot_interfaces__py-4486765ff0a4cd8c64d3.json",
+					"name" : "my_robot_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_generator_c-b39aa7fccfc54159d13e.json",
+					"name" : "my_robot_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_generator_py-913804e245b826d5f460.json",
+					"name" : "my_robot_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_generator_type_description-08c0e3819de8fe873ca4.json",
+					"name" : "my_robot_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_typesupport_c-6c83916ddebdc9939e23.json",
+					"name" : "my_robot_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_typesupport_cpp-8219d029270684bb9d54.json",
+					"name" : "my_robot_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_typesupport_fastrtps_c-5b824fe5dd9b9568e897.json",
+					"name" : "my_robot_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_typesupport_fastrtps_cpp-0b6ba8832da4717e5f57.json",
+					"name" : "my_robot_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_typesupport_introspection_c-a551aed669a65dfa4d2a.json",
+					"name" : "my_robot_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces__rosidl_typesupport_introspection_cpp-e0090f6cc9bf2fc003cd.json",
+					"name" : "my_robot_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces_s__rosidl_typesupport_c-f51a5bf2a63fba28feab.json",
+					"name" : "my_robot_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces_s__rosidl_typesupport_fastrtps_c-43ce2a684ad9da4e4a7f.json",
+					"name" : "my_robot_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces_s__rosidl_typesupport_introspection_c-9f703838c8afbdf29f51.json",
+					"name" : "my_robot_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_interfaces_uninstall-153021b7c5e7342f1b4c.json",
+					"name" : "my_robot_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-058384410be5a26747a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leeky16498/ros2_ws/src/build/my_robot_interfaces",
+		"source" : "/home/leeky16498/ros2_ws/src/my_robot_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
