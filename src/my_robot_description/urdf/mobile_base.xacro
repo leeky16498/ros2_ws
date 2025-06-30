@@ -8,28 +8,6 @@
     <xacro:property name="wheel_radius" value="0.1" />
     <xacro:property name="wheel_length" value="0.05" />
 
-<!-- 
-    <xacro:macro name="example_macro" params="a b c">
-        <link name="dummy_link">
-            <visual>
-                <geometry>
-                    <box size="${a} ${b} ${c}" />
-                </geometry>
-            </visual>
-        </link>
-    </xacro:macro>
-
-    <xacro:example_macro a="2" b="3" c="4"/> -->
-
-
-    <!-- <material name="blue">
-        <color rgba="0 0 0.5 1"/>
-    </material>
-
-    <material name="gray">
-        <color rgba="0.5 0.5 0.5 1"/>
-    </material> -->
-
     <link name="base_link">
         <visual>
             <geometry>
@@ -38,6 +16,8 @@
             <origin xyz="0 0 0.1" rpy="0 0 0"/> 
             <material name="blue"/>
         </visual>
+        <xacro:box_inertia m="5.0" x="${base_length}" y="${base_width}" z="${base_height}"
+                            o_xyz="0 0 ${base_height/2.0}" o_rpy="0 0 0" />
     </link>
 
     <xacro:macro name="wheel_link" params="prefix">
@@ -54,26 +34,6 @@
 
     <xacro:wheel_link prefix="right" />
     <xacro:wheel_link prefix="left" />
-
-    <!-- <link name="right_wheel_link">
-        <visual>
-            <geometry>
-                <cylinder radius="${wheel_radius}" length="0.05"/>
-            </geometry>
-            <origin xyz="0 0 0 " rpy="${pi / 2.0} 0 0" />
-            <material name="gray" />
-        </visual>
-    </link> -->
-
-    <!-- <link name="left_wheel_link">
-        <visual>
-            <geometry>
-                <cylinder radius="${wheel_radius}" length="0.05"/>
-            </geometry>
-            <origin xyz="0 0 0" rpy="1.57 0 0" />
-            <material name="gray" />
-        </visual>
-    </link> -->
 
     <link name="caster_wheel_link">
         <visual>
