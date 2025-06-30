@@ -29,6 +29,8 @@
                 <origin xyz="0 0 0 " rpy="${pi / 2.0} 0 0" />
                 <material name="gray" />
             </visual>
+            <xacro:cylinder_inertia m="1.0" r="${wheel_radius}" l="${wheel_length}" o_xyz="0 0 0" o_rpy="${pi / 2.0} 0 0" />
+
         </link>
     </xacro:macro>
 
@@ -38,11 +40,12 @@
     <link name="caster_wheel_link">
         <visual>
             <geometry>
-                <sphere radius="0.05"/>
+                <sphere radius="${wheel_radius / 2.0}"/>
             </geometry>
             <origin xyz="0.2 0 -0.025" rpy="1.57 0 0" />
             <material name="gray" />
         </visual>
+        <xacro:sphere_inertia m="0.5" r="${wheel_radius / 2.0}" o_xyz="0.2 0 -0.025" o_rpy="1.57 0 0" />
     </link>
 
     <!-- [[[joint section]]] -->
