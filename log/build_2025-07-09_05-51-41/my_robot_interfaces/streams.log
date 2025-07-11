@@ -1,0 +1,32 @@
+[0.005s] Invoking command in '/home/leeky16498/ros2_ws/build/my_robot_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leeky16498/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/leeky16498/ros2_ws/install/my_robot_interfaces
+[0.066s] -- The C compiler identification is GNU 13.3.0
+[0.120s] -- The CXX compiler identification is GNU 13.3.0
+[0.130s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.262s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.262s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.262s]   has asked CMake to find a package configuration file provided by
+[0.262s]   "ament_cmake", but CMake did not find one.
+[0.262s] 
+[0.263s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.263s]   any of the following names:
+[0.263s] 
+[0.263s]     ament_cmakeConfig.cmake
+[0.263s]     ament_cmake-config.cmake
+[0.263s] 
+[0.263s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.263s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.263s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.263s]   has been installed.
+[0.263s] 
+[0.263s] [0m
+[0.263s] -- Configuring incomplete, errors occurred!
+[0.264s] Invoked command in '/home/leeky16498/ros2_ws/build/my_robot_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leeky16498/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/leeky16498/ros2_ws/install/my_robot_interfaces

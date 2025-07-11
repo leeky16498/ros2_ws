@@ -1,1 +1,2 @@
-/home/leeky16498/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg
+Turtle[] turtles
+## msg 타입을 그대로 가져온 것

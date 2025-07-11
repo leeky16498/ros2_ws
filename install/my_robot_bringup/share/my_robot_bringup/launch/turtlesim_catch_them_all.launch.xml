@@ -1,1 +1,9 @@
-/home/leeky16498/ros2_ws/src/my_robot_bringup/launch/turtlesim_catch_them_all.launch.xml
+<launch>
+    <node pkg="turtlesim" exec="turtlesim_node" />
+    <node pkg="turtlesim_catch_them_all" exec="controller">
+        <param from="$(find-pkg-share my_robot_bringup)/config/catch_them_all_config.yaml" />
+    </node>
+    <node pkg="turtlesim_catch_them_all" exec="spawner">
+        <param from="$(find-pkg-share my_robot_bringup)/config/catch_them_all_config.yaml" />    
+    </node>
+</launch>

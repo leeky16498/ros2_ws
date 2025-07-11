@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "my_robot_interfaces/msg/detail/led_state_array__functions.h"
+#include "my_robot_interfaces/msg/detail/led_state_array__struct.h"
 #include "my_robot_interfaces/msg/detail/led_state_array__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "my_robot_interfaces/msg/detail/led_state_array__struct.h"
 
 #ifdef __cplusplus
 extern "C"

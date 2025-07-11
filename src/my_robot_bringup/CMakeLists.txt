@@ -9,8 +9,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 # install 이하 추가, launch와 config 추가
-install(DIRECTORY
-  launch config
+install(
+  DIRECTORY launch config
   DESTINATION share/${PROJECT_NAME}/
 )
 
